@@ -5,6 +5,7 @@
 #ps -fp pid
 
 VAR_NAME="play"
+# never use pace between equal to
 
 SERVER_NAME= $(hostname)
 SERVER_NAME= `hostname`
