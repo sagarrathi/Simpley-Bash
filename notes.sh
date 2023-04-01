@@ -38,3 +38,7 @@ cat -v
 file  #this will alert for th file for carrige return
 dos2unix # this will convert dos file to unix
 
+#11. Finding program executable
+type -a
+example: 
+type - a sed
