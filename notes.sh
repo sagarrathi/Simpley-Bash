@@ -33,5 +33,8 @@ logger -i -t myscript "Message"
 help set | less 
 
 
-#10. To view carrige retunrn of windows text file
+#10. (CLRF)To view carrige retunrn of windows text file
 cat -v
+file  #this will alert for th file for carrige return
+dos2unix # this will convert dos file to unix
+
