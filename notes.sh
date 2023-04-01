@@ -20,3 +20,11 @@ mkdir -p some_dir_path
 # 6. Current PID of shell
 ps -p $$
 
+#7. TRap command can be used to run command after exit of file
+trap "rm $PID_FILE; exit" SIGHUP SIGINT SIGTERM
+
+#8. Logger
+logger "Message"
+logger -p local0.info "Message"
+logger -t myscript -p local0.info "Message"
+logger -i -t myscript "Message"
