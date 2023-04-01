@@ -28,3 +28,10 @@ logger "Message"
 logger -p local0.info "Message"
 logger -t myscript -p local0.info "Message"
 logger -i -t myscript "Message"
+
+#9. Set command, less is pager
+help set | less 
+
+
+#10. To view carrige retunrn of windows text file
+cat -v
